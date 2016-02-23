@@ -2,7 +2,7 @@ Package.describe({
   name: "yogiben:autoform-file",
   summary: "File upload for AutoForm",
   description: "File upload for AutoForm",
-  version: "0.2.1",
+  version: "0.3.2",
   git: "http://github.com/yogiben/autoform-file.git"
 });
 
@@ -14,7 +14,7 @@ Package.onUse(function(api) {
     'coffeescript',
     'underscore',
     'templating',
-    'less',
+    'less@1.0.0 || 2.5.0',
     'aldeed:autoform@4.0.0 || 5.0.0',
     'fortawesome:fontawesome@4.3.0'
     ],
